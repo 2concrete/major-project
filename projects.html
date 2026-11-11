@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <a class="back-arrow" href="index.html" aria-label="Back to home">
+      <i data-feather="arrow-left"></i>
+    </a>
+    <main>
+      <section class="header">
+        <div class="container">
+          <div class="info">
+            <div style="display: flex; align-items: end; gap: 8px">
+              <h1>hi, i'm daniel</h1>
+              <div style="position: relative; bottom: 5px;">
+                <a href="https://github.com/2concrete" aria-label="GitHub">
+                  <i data-feather="github" class="icon-small"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/danielpeace1/"
+                  aria-label="LinkedIn"
+                >
+                  <i data-feather="linkedin" class="icon-small"></i>
+                </a>
+              </div>
+            </div>
+            <p>web developer</p>
+            <small>perth, australia</small>
+          </div>
+          <div class="links">
+            <i data-feather="compass" style="position: relative; top: 2px"></i>
+            <a class="contact" href="index.html">home</a>
+            <a class="contact" href="projects.html">projects</a>
+            <a class="contact" href="contact.html">contact</a>
+            <a class="contact" href="more.html">more</a>
+          </div>
+        </div>
+        <img src="./images/cats.webp" alt="cats" />
+      </section>
+      <section>
+        <h2>projects</h2>
+        <div class="gallery">
+          <div class="card">
+            <a href="https://minimalist.ws">
+              <img src="./images/minimalist.webp" alt="minimalist project"
+            /></a>
+            <div>
+              <span>
+                <a href="https://github.com/2concrete/minimalist-v2"
+                  >minimalist</a
+                >
+              </span>
+              <p>hyper minimal todolist</p>
+              <small>nextjs, react, tailwindcss</small>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://dreamer-red.vercel.app/">
+              <img src="./images/dreamer.webp" alt="dreamer project"
+            /></a>
+            <div>
+              <span>
+                <a href="https://github.com/2concrete/dreamer">dreamer</a>
+              </span>
+              <p>dream tracking website</p>
+              <small>nextjs, react, tailwindcss, clerkAuth, convexDB</small>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://wrd-hazel.vercel.app/">
+              <img
+                class="object-position"
+                src="./images/wrd.webp"
+                alt="wrd project"
+            /></a>
+            <div>
+              <span>
+                <a href="https://github.com/2concrete/wrd">wrd</a>
+              </span>
+              <p>random website to display text</p>
+              <small>nextjs, react, tailwindcss, convexDB</small>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://concrete.codes">
+              <img src="./images/portfolio.png" alt="portfolio project"
+            /></a>
+            <div>
+              <span>
+                <a href="https://github.com/2concrete/portfolio">portfolio</a>
+              </span>
+              <p>this minimal portfolio</p>
+              <small>nextjs, react, tailwindcss</small>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://github.com/2concrete/dotfiles">
+              <img src="./images/dotfiles.webp" alt="dotfiles project"
+            /></a>
+            <div>
+              <span>
+                <a href="https://github.com/2concrete/dotfiles">dotfiles</a>
+              </span>
+              <p>my windows .config folder</p>
+              <small>komorebi, yasb, yazi, btm, ohmyposh, winfetch</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <h3><a href="https://concrete.codes">concrete.codes</a></h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="more.html">more</a></li>
+          </ul>
+        </nav>
+        <div class="links">
+            <a href="https://github.com/2concrete" aria-label="GitHub">
+              <i data-feather="github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/danielpeace1/"
+              aria-label="LinkedIn"
+            >
+              <i data-feather="linkedin"></i>
+            </a>
+          </div>
+      </section>
+    </main>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

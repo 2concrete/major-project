@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <a class="back-arrow" href="index.html" aria-label="Back to home">
+      <i data-feather="arrow-left"></i>
+    </a>
+    <main>
+      <section class="header">
+        <div class="container">
+          <div class="info">
+            <div style="display: flex; align-items: end; gap: 8px">
+              <h1>hi, i'm daniel</h1>
+              <div style="position: relative; bottom: 5px;">
+                <a href="https://github.com/2concrete" aria-label="GitHub">
+                  <i data-feather="github" class="icon-small"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/danielpeace1/"
+                  aria-label="LinkedIn"
+                >
+                  <i data-feather="linkedin" class="icon-small"></i>
+                </a>
+              </div>
+            </div>
+            <p>web developer</p>
+            <small>perth, australia</small>
+          </div>
+          <div class="links">
+            <i data-feather="compass" style="position: relative; top: 2px"></i>
+            <a class="contact" href="index.html">home</a>
+            <a class="contact" href="projects.html">projects</a>
+            <a class="contact" href="contact.html">contact</a>
+            <a class="contact" href="more.html">more</a>
+          </div>
+        </div>
+        <img src="./images/cats.webp" alt="cats" />
+      </section>
+      <section class="contact">
+        <h2>contact me</h2>
+        <p>
+          <i data-feather="mail" class="icon-small"></i>danielpeace654@gmail.com
+        </p>
+        <p><i data-feather="phone" class="icon-small"></i>+61 0466 549 116</p>
+      </section>
+      <section class="form">
+        <h3>contact form</h3>
+        <br>
+        <form action="#" method="post" id="theForm">
+          <fieldset>
+            <div class="grid">
+              <div class="two">
+                <label for="firstName">first name</label>
+                <input type="text" name="firstName" id="firstName" required />
+              </div>
+              <div class="two">
+                <label for="lastName">last name</label
+                ><input type="text" name="lastName" id="lastName" required />
+              </div>
+              <div class="two">
+                <label for="email">email address</label
+                ><input type="email" name="email" id="email" />
+              </div>
+              <div class="two">
+                <label for="phone"
+                  >phone number<span class="tooltip"
+                    >02 xxxx xxxx or <br> 04xx xxx xxx</span
+                  ></label
+                ><input type="text" name="phone" id="phone" required />
+              </div>
+              <div class="two">
+                <label for="city">city</label
+                ><input type="text" name="city" id="city" required />
+              </div>
+              <div class="two">
+                <label for="message">message</label
+                ><textarea name="message" id="message" required></textarea>
+              </div>
+            </div>
+            <div class="one">
+              <input type="checkbox" name="terms" id="terms" required /> i agree
+              to the terms
+            </div>
+            <div class="one">
+              <input type="submit" value="send" id="submit" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+      <section class="footer">
+        <h3><a href="https://concrete.codes">concrete.codes</a></h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="more.html">more</a></li>
+          </ul>
+        </nav>
+        <div class="links">
+            <a href="https://github.com/2concrete" aria-label="GitHub">
+              <i data-feather="github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/danielpeace1/"
+              aria-label="LinkedIn"
+            >
+              <i data-feather="linkedin"></i>
+            </a>
+          </div>
+      </section>
+    </main>
+    <script type="module" src="js/register.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

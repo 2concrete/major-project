@@ -1,0 +1,285 @@
+body {
+  background-color: white;
+  font-family: Inter;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all ease;
+  transition-duration: 200ms;
+  cursor: pointer;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+main {
+  width: 700px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+small {
+  opacity: 0.6;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-small {
+  width: 20px;
+  height: 20px;
+}
+
+.links .contact {
+  position: relative;
+  top: 5px;
+}
+
+.header {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.header p {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.header img {
+  width: 300px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgb(110, 109, 109);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-item p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.projects-item > p {
+  display: inline;
+}
+
+.projects-item span {
+  display: flex;
+  justify-items: center;
+  gap: 6px;
+}
+
+.projects-item a {
+  margin: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: right;
+}
+
+.education-item p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  font-size: 16px;
+}
+
+.education-item h3 {
+  font-size: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  padding: 5px;
+}
+
+.card img {
+  height: 175px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 15px;
+  aspect-ratio: 3/4;
+  width: 330px;
+}
+
+.object-position {
+  object-position: 0px -170px !important;
+}
+
+.card div {
+  margin-left: 6px;
+}
+
+.card a {
+  font-size: 20px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+  position: relative;
+  top: 5.5px;
+}
+
+.card span {
+  display: flex;
+  gap: 8px;
+}
+
+.back-arrow {
+  position: absolute;
+}
+
+.contact p {
+  margin: 0;
+  margin-top: 6px;
+  display: flex;
+  justify-items: center;
+  gap: 8px;
+}
+
+.form {
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 10px;
+  padding: 10px;
+  margin-inline: auto;
+}
+
+.form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form p {
+  margin-top: 0;
+}
+
+.one {
+  margin-bottom: 10px;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 2px;
+  position: relative;
+}
+
+.two input {
+  width: 200px;
+  outline: none;
+}
+
+.two label {
+  font-size: 14px;
+}
+
+.two select {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px 40px;
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 10px;
+  padding: 4px;
+  background-color: white;
+  width: 100px;
+  right: -100px;
+  z-index: 10;
+}
+
+.footer {
+  margin-inline: auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px
+}
+
+[data-feather="compass"] {
+  cursor: default;
+}
+
